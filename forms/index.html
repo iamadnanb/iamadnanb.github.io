@@ -1,0 +1,16 @@
+<form action="reservation.php" method="post">
+  <div class="elem-group">
+    <input type="text" id="name" name="visitor_name" placeholder="Nama Lengkap Anda" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <input type="email" id="email" name="visitor_email" placeholder="email anda@email.com" required>
+  </div>
+  <div class="elem-group">
+    <input type="text" id="subject" name="visitor_subject" placeholder="Subject" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+   <div class="elem-group">
+    <input type="text" id="message" name="visitor_message" placeholder="Isi pesan anda" required>
+  </div>
+  <hr>
+  <button type="submit">Kirim</button>
+</form>
